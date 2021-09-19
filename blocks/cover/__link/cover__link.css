@@ -1,0 +1,20 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    max-width: 1184px;
+    height: 100%;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .cover__link {
+      max-width: 1024px;
+    }
+  }
+
+@media (max-width: 767px) {
+    .cover__link {
+      max-width: 767px;
+    }
+  }
