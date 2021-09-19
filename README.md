@@ -15,5 +15,5 @@
 
 
 ## Ссылка на проект :
- (не могу подключиться к гиту)
+ https://havaisrailova.github.io/russian-travel/index.html
 
