@@ -1,0 +1,56 @@
+/*.photo-grid {
+  display: grid;
+  justify-content: center;
+  gap: 16px;
+  max-width: 1184px;
+  width: 100%;
+  margin: auto;
+  grid-template-columns: repeat(auto-fit, 284px);
+}
+
+@media (max-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, 300px);
+    max-width: 928px;
+    gap: 16px;
+  }
+}
+
+добавила марджин
+*/
+.photo-grid {
+  grid-template-columns: repeat(auto-fit, 284px);
+  width: 100%;
+  max-width: 1184px;
+  display: grid;
+  margin: 92px auto;
+  justify-content: center;
+  gap: 16px;
+}
+
+@media (max-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, 300px);
+    max-width: 928px;
+    gap: 14px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, 352px);
+    max-width: 720px;
+    gap: 16px;
+    margin: 88px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, 288px);
+    max-width: 288px;
+    row-gap: 12px;
+    margin: 64px auto;
+  }
+}
+
