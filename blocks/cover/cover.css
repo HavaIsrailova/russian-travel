@@ -2,9 +2,8 @@
   color: #ffffff;
   background-image: url(../../images/cover-trains.jpg);
   max-width: 1184px;
-  min-height: 740px; 
+  min-height: 740px;
   background-size: cover;
-  margin: auto;
   background-position: center;
   padding-top: 92px;
   padding-bottom: 92px;
@@ -23,7 +22,7 @@
   left: 0;
   right: 0;
   opacity: 0.3;
-  transition: opacity 1s ease-in-out ;
+  transition: opacity 1s ease-in-out;
 }
 
 .cover:hover:after {
