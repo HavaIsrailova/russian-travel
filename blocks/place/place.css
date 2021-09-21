@@ -29,9 +29,8 @@
     grid-template-columns: minmax(320px, min-content);
     max-width: 320px;
     row-gap: 32px;
-    justify-items: flex-start;
-    row-gap: 32px;
     margin: 55px auto;
+    justify-items: flex-start;
   }
 }
 
