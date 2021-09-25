@@ -1,0 +1,31 @@
+.lead {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background-color: #2a2c2f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  max-width: 984px;
+  width: 100%;
+}
+/*1024*/
+@media (max-width: 1279px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+/*768*/
+@media (max-width: 1023px) {
+  .lead {
+    max-width: 768px;
+  }
+}
+/*320*/
+@media (max-width: 767px) {
+  .lead {
+    max-width: 320px;
+  }
+}
+
+

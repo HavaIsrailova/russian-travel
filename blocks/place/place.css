@@ -1,0 +1,38 @@
+.place {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 1fr auto;
+  row-gap: 48px;
+  margin-bottom: 80px;
+  justify-content: center;
+  max-width: 1280px;
+  width: 100%;
+}
+
+@media (max-width: 1279px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    column-gap: 32px;
+    margin-bottom: 82px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    margin-bottom: 79px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place {
+    grid-template-columns: minmax(320px, min-content);
+    max-width: 320px;
+    row-gap: 32px;
+    margin: 55px auto;
+    justify-items: flex-start;
+  }
+}
+
